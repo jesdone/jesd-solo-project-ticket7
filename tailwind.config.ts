@@ -2,8 +2,8 @@ import type { Config } from "tailwindcss";
 const punycode = require('punycode');
 const config: Config = {
   content: [
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./pages/**/*.{js,ts,jsx,tsx,html,mdx}",
+    "./components/**/*.{js,ts,jsx,tsx,html,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
